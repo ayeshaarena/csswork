@@ -1,0 +1,165 @@
+@font-face {
+    font-family: 'QuicksandBook';
+    src: url('fonts/Quicksand_Book-webfont.eot');
+    src: url('fonts/Quicksand_Book-webfont.eot?#iefix') format('embedded-opentype'),
+    url('fonts/Quicksand_Book-webfont.woff') format('woff'),
+    url('fonts/Quicksand_Book-webfont.ttf') format('truetype'),
+    url('fonts/Quicksand_Book-webfont.svg#QuicksandBook') format('svg');
+    font-weight: normal;
+    font-style: normal;}
+body {
+    color: #ffffff;
+    background: #413f3b url("bg-color.jpg")
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 90%;
+    margin: 0px;
+    text-align: center;}
+a {
+    color: #b5c1ad;
+    text-decoration: none;}
+a:hover {
+    color: #ffffff;
+}
+.nav{
+    margin: auto 15px auto 15px;
+    text-transform: uppercase;
+    position: absolute;
+    left: 78%;
+    bottom: 75%;
+    font-size: small;
+     font-family: QuicksandBook, Helvetica, Arial, sans-serif;
+     text-align: right;
+
+}
+    
+.header {
+    background-image: url("images/bg-header.jpg");
+    padding: 0px 0px 0px 0px;
+    height: 100px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 50;
+}
+.bg-color{
+    margin-top: 0%;
+}
+.tri{
+    
+    display: inline;
+    position: relative;
+    bottom: 165%;
+    right:   -10%;
+    padding-top: 10%;
+}
+.bg-img{
+
+    display: inline;
+    position: relative;
+    right: 17.9%;
+    bottom: 30px;
+}
+h2 {
+    display: inline;
+    padding-top: 20px;
+    text-align: center;
+    margin-right: 700px;
+    font-family: QuicksandBook, Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;}
+h1 {
+   
+    font-family: QuicksandBook, Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    position: absolute;
+    top: 15%;
+    right: 25%;
+    font-size: 240%;
+    margin-top: 140px;
+}
+.date {
+    
+    position: absolute;
+    top: 15%;
+    right: 17em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    color: #b5c1ad;
+}
+.intro {
+    position: absolute;
+    top: 40%;
+    right: 10rem;
+    padding-top: 60px;
+    font-size: 90%;
+    line-height: 1.4em;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: .2rem;
+}
+.img-1{
+    margin: 10px 10px  10px 10px;
+
+}
+.img-2{
+    margin: 10px 10px  10px 10px;
+
+    
+}
+.img-3{
+    margin: 10px 10px  10px 10px;
+
+
+    
+}
+.img-4{
+    margin: 10px 10px  10px 10px;
+
+}
+.road-ahead{
+    position: relative;
+    right: 367px;
+    line-height: .5em;
+}
+.sketch{
+    position: relative;
+    bottom: 209px;
+    right: 115px;
+    line-height: .5em;
+    
+}
+.shop{
+    position: relative;
+    bottom: 418px;
+    left: 140px;
+    line-height: .5em;
+
+}
+.Schwinn{
+    position: relative;
+    bottom: 628px;
+    left: 385px;
+    line-height: .5em;
+}
+hr{
+    width: 150px;
+}
+.articles{
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    border-top: solid rgb(126, 125, 125);
+}
+.footer {
+    clear: both;
+    background: rgba(0, 0, 0, 0.2);
+    padding: 5px 10px;
+}
+.footer p {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 75%;
+    text-align: center;
+}
+.footer a {
+    color: #807c72;}
